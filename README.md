@@ -19,13 +19,13 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
   <summary>Obtain Trello tokens, keys and ids.</summary>
 
   - **User key & token**
-    - <img src="https://i.imgur.com/OMbgKT4.png" width="100%">
+    <img src="https://i.imgur.com/OMbgKT4.png" width="100%">
   - **Board ID**
-    - <img src="https://i.imgur.com/04jozwA.gif" width="100%">
+    <img src="https://i.imgur.com/04jozwA.gif" width="100%">
   - **List ID**
-    - <img src="https://i.imgur.com/0ZEW2iM.gif" width="100%">
+    <img src="https://i.imgur.com/0ZEW2iM.gif" width="100%">
   - **Card ID**
-	- <img src="https://i.imgur.com/1l8gO39.gif" width="100%">
+	<img src="https://i.imgur.com/1l8gO39.gif" width="100%">
 </details>
 
 ## Update History
