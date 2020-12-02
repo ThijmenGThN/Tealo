@@ -15,22 +15,22 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 ## Authentication
 <details>
-  	<summary>**Trello API key and token**</summary>
+  	<summary> **Trello API key and token** </summary>
   		- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
   		<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
 </details>
 <details>
-	<summary>**Trello Board ID**</summary>
+	<summary> **Trello Board ID** </summary>
     - Obtaining the board id from Trello.
   	<img src="https://i.imgur.com/04jozwA.gif" width="100%">
 </details>
 <details>
-	<summary>**Trello List ID**</summary>
+	<summary> **Trello List ID** </summary>
     	- Obtaining the list id on a board from Trello.
 	<img src="https://i.imgur.com/0ZEW2iM.gif" width="100%">
 </details>
 <details>
-	<summary>**Trello Template Card ID**</summary>
+	<summary> **Trello Template Card ID** </summary>
 - Obtaining the card id on a board from Trello.
 <img src="https://i.imgur.com/1l8gO39.gif" width="100%">
 </details>
