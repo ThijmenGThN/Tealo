@@ -17,11 +17,13 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 <details>
 	<summary>**Trello API key and token**</summary><p>
-  		### reee
+  	- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
+  	<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
 </p></details>
 
 <details>
 	<summary>**Trello Board ID**</summary>
+	
     - Obtaining the board id from Trello.
    
   	<img src="https://i.imgur.com/04jozwA.gif" width="100%">
@@ -29,8 +31,8 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 <details>
 	<summary>**Trello List ID**</summary>
-    
-    - Obtaining the list id on a board from Trello.
+
+	- Obtaining the list id on a board from Trello.
    
   	<img src="https://i.imgur.com/0ZEW2iM.gif" width="100%">
 </details>
