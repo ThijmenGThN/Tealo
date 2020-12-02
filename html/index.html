@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tealo</title>
+
+    <link rel="stylesheet" href="./css/master.css">
+
+    <script>if (typeof module === 'object') { window.module = module; module = undefined }</script>
+    <script src="./libs/jQuery.js"></script>
+    <script>if (window.module) module = window.module</script>
+</head>
+<body>
+  <div id="content">
+    <div id="auth">
+      <div id="auth-trello">
+        <div class="auth-form">
+          <input id="trello-key" type="password" placeholder="Profile Key">
+          <input id="trello-token" type="password" placeholder="Profile Token">
+          <input id="trello-board" type="text" placeholder="Board Id">
+          <input id="trello-task" type="text" placeholder="Board Target List Id">
+          <input id="trello-template" type="text" placeholder="Board Template Card Id">
+        </div>
+        <img src="./assets/trello.png">
+        <span>All fields need to be filled in</span>
+      </div>
+      <div id="auth-teams">
+        <div class="auth-form">
+          <input id="teams-email" type="text" placeholder="Email address" style="top: 75px">
+          <input id="teams-pass" type="password" placeholder="Password" style="top: 75px">
+          <p>Values are being stored automatically.</p>
+          <button onclick="if (allow) goTo(`run`)">Get started</button>
+        </div>
+        <img src="./assets/teams.png">
+        <img src="./assets/aventus.png" style="top: 100px; left: 25px">
+        <span>All fields need to be filled in</span>
+      </div>
+    </div>
+
+    <div id="run">
+      <div id="run-action">
+        <div id="action-console">
+          <h1>Console</h1>
+          <p id="console">Awaiting authentication values..</p>
+        </div>
+        <div id="action-container">
+          <button id="action-getTeams" onclick="if (allow) getTeams(); else goTo(`auth`)">Load assignments from Teams</button>
+          <button id="action-pushTrello" onclick="if (allow) pushTrello(); else goTo(`auth`)">Add all assignments to Trello</button>
+        </div>
+      </div>
+      <div id="run-list">
+        <div id="list-container">
+          <h1>Assignments</h1>
+          <p>You haven't loaded any assignments yet.</p>
+          <ul id="list-assignments"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="menu">
+    <div id="menu-auth" onclick="goTo(`auth`)"><img src="./assets/auth.png"><div></div></div>
+    <div id="menu-run" onclick="goTo(`run`)"><img src="./assets/run.png"></div>
+    <p>0.0.0</p>
+  </div>
+
+  <div id="load"><img src="./assets/tealo.png"><h1>Tealo</h1><h2>by ThijmenGThN</h2></div>
+
+  <script src="./js/master.js"></script>
+  <script src="./js/conn.js"></script>
+</body>
+</html>

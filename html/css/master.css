@@ -1,0 +1,529 @@
+
+* {
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  outline: none;
+  user-select: none;
+
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+
+  border: none;
+}
+
+body {
+  background-color: rgb(40,50,60);
+}
+
+#load {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(40,50,60);
+}
+
+#load img {
+  position: absolute;
+  top: 125px;
+  left: calc(50% - 50px);
+
+  width: 100px;
+  height: 100px;
+}
+
+#load h1 {
+  position: absolute;
+  top: 240px;
+  left: 0;
+
+  width: 100%;
+  height: 40px;
+
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+#load h2 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+
+  width: 100%;
+  height: 40px;
+
+  font-size: 15px;
+  text-align: center;
+  color: rgb(117, 125, 133);
+}
+
+#content {
+  position: absolute;
+  top: 0;
+  left: 55px;
+
+  width: calc(100vw - 55px);
+  height: calc(100vh);
+}
+
+#auth {
+  transition: 1s;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+#auth div img {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+
+  width: 50px;
+  height: 50px;
+}
+
+#auth div span {
+  position: absolute;
+  top: 25px;
+  left: 120px;
+
+  width: 220px;
+  height: 18px;
+
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 15px;
+  color: rgb(48, 48, 48);
+
+  background-color: rgb(238, 116, 116);
+}
+
+#auth div div {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+
+  width: calc(100% - 50px);
+  height: calc(100% - 75px);
+
+  border-radius: 10px;
+
+  background-color: white;
+}
+
+#auth-trello {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background-color: rgb(60,70,80);
+}
+
+#auth-teams {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background-color: rgb(50,60,70);
+}
+
+.auth-form {
+  box-shadow: 5px 5px rgb(195, 195, 195);
+}
+
+.auth-form input {
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 15px;
+  position: relative;
+  top: 50px;
+  left: 25px;
+
+  width: 245px;
+  height: 30px;
+
+  font-size: 20px;
+  color: rgb(48, 48, 48);
+
+  border: solid 1px rgb(188, 188, 192);
+  border-radius: 10px;
+
+  background-color: rgb(213, 214, 216);
+}
+
+.auth-form p {
+  position: absolute;
+  top: 200px;
+  left: 0;
+
+  width: 100%;
+
+  text-align: center;
+  font-size: 10px;
+  color: rgb(83, 83, 83);
+}
+
+.auth-form button {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+
+  width: calc(100% - 50px);
+  height: 30px;
+
+  border-radius: 10px;
+
+  font-size: 17.5px;
+  color: white;
+
+  background-color: rgb(206, 206, 206);
+}
+
+.auth-form button:hover {
+  cursor: pointer;
+}
+
+.auth-form input::placeholder {
+  color: rgb(151, 151, 151);
+}
+
+.auth-form input:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+#run {
+  transition: 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  
+}
+
+#run-action {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50%;
+  height: 100%;
+  
+  background-color: rgb(60,70,80);
+}
+
+#action-console {
+  padding-bottom: 25px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+
+  width: calc(100% - 50px);
+  height: 275px;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(50,50,50);
+
+  background-color: rgb(0, 0, 0);
+}
+
+#action-console h1 {
+  padding-top: 7px;
+  padding-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: calc(100% - 10px);
+  height: 17px;
+
+  font-size: 12.5px;
+  color: white;
+
+  background-color: rgb(22, 22, 22);
+}
+
+#action-console p {
+  overflow-y: scroll;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+
+  width: calc(100% - 10px);
+  height: 215px;
+
+  font-size: 10px;
+  color: white;
+}
+
+#action-container {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+
+  width: calc(100% - 50px);
+  height: calc(100% - 300px);
+
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(195, 195, 195);
+
+  background-color: rgb(255, 255, 255);
+}
+
+#action-container button {
+  margin-top: 10px;
+  position: relative;
+  top: 5px;
+  left: 5%;
+
+  width: 90%;
+  height: 40px;
+
+  border-radius: 10px;
+
+  font-size: 17.5px;
+  color: white;
+
+  background-color: rgb(195, 195, 195);
+}
+
+#action-container button:hover {
+  cursor: pointer;
+}
+
+#run-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background-color: rgb(50,60,70);
+}
+
+#list-container {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(195, 195, 195);
+
+  background-color: white;
+}
+
+#list-container h1 {
+  padding-top: 5px;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: calc(100% - 20px);
+  height: 35px;
+
+  font-size: 25px;
+  color: rgb(104, 104, 104);
+
+  background-color: rgb(214, 214, 214);
+}
+
+#list-container p {
+  position: absolute;
+  top: 180px;
+  left: 0;
+
+  width: 100%;
+
+  text-align: center;
+  font-size: 10px;
+  color: rgb(104, 104, 104);
+}
+
+#list-assignments {
+  overflow-y: scroll;
+  position: absolute;
+  top: 40px;
+  left: 0;
+
+  width: 100%;
+  height: calc(100% - 40px);
+}
+
+#list-assignments li {
+  margin-top: 7.5px;
+  position: relative;
+  top: 0;
+  left: 10px;
+
+  width: calc(100% - 20px);
+  height: 50px;
+
+  border-radius: 10px;
+
+  background-color: rgb(214, 214, 214);
+}
+
+#list-assignments li h1 {
+  padding: 0;
+  overflow-x: scroll;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+
+  font-size: 10px;
+  color: black;
+
+  width: calc(100% - 70px);
+  height: 22px;
+}
+
+#list-assignments li h1::-webkit-scrollbar {
+  height: 0;
+}
+
+#list-assignments li p {
+  white-space: nowrap;
+  padding-top: 2.5px;
+  position: absolute;
+  top: 30px;
+  left: 7.5px;
+
+  width: 125px;
+  height: 14px;
+
+  font-size: 10px;
+  text-align: center;
+  color: rgb(31, 31, 31);
+
+  border-radius: 5px;
+
+  background-color: rgb(187, 187, 187);
+}
+
+#list-assignments li img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  width: 20px;
+  height: 20px;
+
+  background-color: rgb(202, 202, 202);
+}
+
+#list-assignments li img:hover {
+  cursor: pointer;
+
+  background-color: rgb(182, 182, 182);
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 55px;
+  height: 100%;
+}
+
+#menu div img {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 12.5px);
+
+  width: 25px;
+  height: 25px;
+
+  filter: invert(1);
+}
+
+#menu div:hover {
+  cursor: pointer;
+
+  background-color: rgb(80,90,100);
+}
+
+#menu-auth {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: rgb(60,70,80);
+}
+
+#menu-auth div {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+
+  width: 12.5px;
+  height: 12.5px;
+
+  border-radius: 100%;
+
+  background-color: rgb(231, 68, 68);
+}
+
+#menu-auth div:hover {
+  background-color: rgb(231, 68, 68);
+}
+
+#menu-run {
+  position: absolute;
+  top: 70px;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: rgb(50,60,70);
+}
+
+#menu p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+
+  width: 100%;
+  
+  text-align: center;
+  font-size: 10px;
+  color: white;
+
+  background-color: rgba(255,255,255,.15);
+}
+
