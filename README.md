@@ -16,10 +16,10 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 ## Authentication
 
 <details>
-	<summary>**Trello API key and token**</summary><p>
+	<summary>**Trello API key and token**</summary>
   	- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
   	<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
-</p></details>
+</details>
 
 ## Update History
 Version | Note
