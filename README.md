@@ -20,6 +20,8 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
   - **User key & token**
     
+	[Trello/app-key](https://trello.com/app-key)
+
 	<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
 
   - **Board ID**
