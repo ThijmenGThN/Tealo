@@ -8,11 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^11.0.3",
-    "jsonfile": "^6.1.0",
-    "puppeteer": "^5.5.0",
-    "simple-encryptor": "^4.0.0",
-    "trello": "^0.10.0"
-  }
+  "devDependencies": {
+    "electron": "11.0.3",
+    "jsonfile": "6.1.0",
+    "puppeteer": "5.5.0",
+    "simple-encryptor": "4.0.0",
+    "trello": "0.10.0"
+  },
+  "dependencies": {}
 }
