@@ -14,10 +14,11 @@ This project is an idea from Tim, it was developed by [ThijmenGThN](https://gith
 Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 ## Authentication
-<details>
-  	<summary> __Trello API key and token__ </summary>
-  	- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
-  	<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
+<details><summary>__Trello API key and token__</summary>
+<p>
+- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
+<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
+</p>
 </details>
 <details>
 	<summary> **Trello Board ID** </summary>
