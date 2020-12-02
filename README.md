@@ -3,7 +3,7 @@ An easy to use tool which is capable of migrating assignments from Microsoft Tea
 
 This project is an idea from Tim, it was developed by [ThijmenGThN](https://github.com/ThijmenGThN) and is now being maintained by multiple.
 
-<p align="left"><img src="https://i.imgur.com/brgvAbz.png" width="45%">    <img src="https://i.imgur.com/e2HLxEW.png" width="45%"></p>
+<p align="left"><img src="https://i.imgur.com/brgvAbz.png" width="45%"> <img src="https://i.imgur.com/e2HLxEW.png" width="45%"></p>
 
 ## How to use
 1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip version for your distro.
