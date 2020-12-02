@@ -16,9 +16,41 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 ## Authentication
 
 <details>
-	<summary>**Trello API key and token**</summary>
+  <summary>**View my Projects 🔭**</summary>
+
+  - **Client Projects**
+    - [EasyEco - NodeJS Discord Bot](https://github.com/ThijmenGThN/EasyEco)
+  - **Personal Projects**
+    - [KatyushaBot - NodeJS Discord Bot](https://github.com/ThijmenGThN/KatyushaBot)
+  - **Open Source**
+    - [PCMT - Personal Client Management Tool](https://github.com/ThijmenGThN/PCMT)
+    - [GOS - Web Based Operating System](https://github.com/ThijmenGThN/GOS)
+</details>
+<details>
+	<summary>**Trello API key and token**</summary><p>
   	- Get your Trello [key](https://trello.com/app-key) and [token](https://trello.com/app-key).
   	<img src="https://i.imgur.com/OMbgKT4.png" width="100%">
+</p></details>
+<details>
+	<summary>**Trello Board ID**</summary>
+	
+    - Obtaining the board id from Trello.
+   
+  	<img src="https://i.imgur.com/04jozwA.gif" width="100%">
+</details>
+<details>
+	<summary>**Trello List ID**</summary>
+
+	- Obtaining the list id on a board from Trello.
+   
+  	<img src="https://i.imgur.com/0ZEW2iM.gif" width="100%">
+</details>
+<details>
+	<summary>**Trello Template Card ID**</summary>
+    
+    - Obtaining the card id on a board from Trello.
+   
+  	<img src="https://i.imgur.com/1l8gO39.gif" width="100%">
 </details>
 
 ## Update History
