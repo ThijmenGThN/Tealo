@@ -1,7 +1,7 @@
 # <img src="https://i.imgur.com/ItE38Tl.png" width="25"> Tealo
 An easy to use tool which is capable of migrating assignments from Microsoft Teams over to Trello seamlessly with an user interface.
 
-This project is an idea from Tim, it was developed by [ThijmenGThN](https://github.com/ThijmenGThN) and is now being maintained by multiple.
+This project is an idea from [Tim](https://github.com/DarkTiger512).
 
 <p align="left"><img src="https://i.imgur.com/brgvAbz.png" width="45%"> <img src="https://i.imgur.com/e2HLxEW.png" width="45%"></p>
 
