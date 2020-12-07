@@ -1,0 +1,32 @@
+
+* {
+  user-select: none;
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  outline: none;
+
+  list-style: none;
+
+  text-decoration: none;
+  font-family: Arial;
+}
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  position: absolute;
+  top: calc(50vh - 236px);
+  left: calc(50vw - 276px);
+
+  width: 552px;
+  height: 449px;
+
+  border-radius: 5px;
+
+  background-color: #cfcecc;
+}

@@ -1,19 +1,29 @@
 {
   "name": "tealo",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "An easy to use tool which is capable of migrating assignments from Microsoft Teams over to Trello seamlessly with an user interface.",
   "main": "app.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node app.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThijmenGThN/Tealo.git"
+  },
+  "keywords": [
+    "Teams",
+    "Trello",
+    "Assignments"
+  ],
+  "author": "com.github.ThijmenGThN | ThijmenHeuvelink.GThN@pm.me | Discord @ ThijmenGThN#2684",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "11.0.3",
-    "jsonfile": "6.1.0",
-    "puppeteer": "5.5.0",
-    "simple-encryptor": "4.0.0",
-    "trello": "0.10.0"
+  "bugs": {
+    "url": "https://github.com/ThijmenGThN/Tealo/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/ThijmenGThN/Tealo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonfile": "^6.1.0",
+    "socket.io": "^3.0.3"
+  }
 }
