@@ -10,9 +10,11 @@ module.exports = {
                 http: require(`http`),
                 json: require(`jsonfile`),
                 io: require(`socket.io`)
-            }
+            },
+            config: undefined,
+            sockets: undefined
         };
-        G.config = G.node.json.readFileSync(`./config.json`), G.db = G.node.monk(G.config.db, {authSource: "admin"});
+        G.config = G.node.json.readFileSync(`./config.json`);
         
         ////////// EXPRESS ////////////////////////////////////////
 

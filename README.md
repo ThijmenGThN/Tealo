@@ -3,18 +3,28 @@ An easy to use tool which is capable of migrating assignments from Microsoft Tea
 
 This project is an idea from [Tim](https://github.com/DarkTiger512).
 
+## Hosting
+1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip file available.
+2. Extract the .zip to a place you wish Tealo to be stored.
+3. Make sure to have the latest version of [Node.JS](https://nodejs.org/) installed.
+4. Make sure to explicitly use folder dist since this is for production usage.
+5. Install dependencies with ```npm i```.
+6. Initiate the server with ```npm start```.
+
 ## Open Source
 1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip file available.
 2. Extract the .zip to a place you wish Tealo to be stored.
 3. Make sure to have the latest version of [Node.JS](https://nodejs.org/) installed.
 4. Install dependencies with ```npm i```.
-5. Initiate the server with ```npm start```.
+5. Open folder dist and repeat step 4.
+6. Initiate the server with ```npm start``` in the dist folder.
 
 Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 ## Update History
 Version | Note
 -|-
+[**1.1.1**](https://github.com/ThijmenGThN/Tealo/releases/tag/1.1.1) | Integrated TypeScript 
 [**1.1.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/1.1.0) | Converted to Teams App
 [**0.1.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.1.0) | Working and functional
 [**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.0) | Project created
