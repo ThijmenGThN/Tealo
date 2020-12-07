@@ -7,8 +7,8 @@ This project is an idea from [Tim](https://github.com/DarkTiger512).
 1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip file available.
 2. Extract the .zip to a place you wish Tealo to be stored.
 3. Make sure to have the latest version of [Node.JS](https://nodejs.org/) installed.
-4. Install dependencies with ```console npm i```.
-5. Initiate the server with ```console npm start```.
+4. Install dependencies with ```npm i```.
+5. Initiate the server with ```npm start```.
 
 Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
