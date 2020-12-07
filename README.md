@@ -15,9 +15,10 @@ This project is an idea from [Tim](https://github.com/DarkTiger512).
 1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip file available.
 2. Extract the .zip to a place you wish Tealo to be stored.
 3. Make sure to have the latest version of [Node.JS](https://nodejs.org/) installed.
-4. Install dependencies with ```npm i```.
-5. Open folder dist and repeat step 4.
-6. Initiate the server with ```npm start``` in the dist folder.
+4. Install TypeScript in root folder with ```PS: npm i -g typescript -g; npm i @types/node``` or ```CMD: npm i -g typescript && npm i @types/node```.
+5. Redirect to the dist folder.
+6. Install dependencies with ```npm i```.
+7. Initiate the server with ```npm start``` in the dist folder.
 
 Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
