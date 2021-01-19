@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "target": "es3",
-    "outDir": "./dist/",
-    "rootDir": "./src/",
-    "removeComments": true
-  }
-}

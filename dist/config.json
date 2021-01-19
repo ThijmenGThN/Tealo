@@ -1,7 +1,0 @@
-{
-    "site": {
-        "port": "80",
-        "root": "/site/",
-        "file": "index.html"
-    }
-}

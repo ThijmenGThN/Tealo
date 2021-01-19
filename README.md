@@ -15,20 +15,38 @@ This project is an idea from [Tim](https://github.com/DarkTiger512).
 1. [**Download**](https://github.com/ThijmenGThN/Tealo/releases) the latest .zip file available.
 2. Extract the .zip to a place you wish Tealo to be stored.
 3. Make sure to have the latest version of [Node.JS](https://nodejs.org/) installed.
-4. Install TypeScript in the root folder with ```npm i -g typescript``` and ```npm i @types/node```.
-5. Redirect to the dist folder.
-6. Install dependencies with ```npm i```.
-7. Initiate the server with ```npm start``` in the dist folder.
+4. Install dependencies with ```npm i``` in both dist and src folders.
+5. Initiate the server with ```npm start``` in the dist folder.
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 
 ## Update History
 Version | Note
 -|-
-[**1.1.1**](https://github.com/ThijmenGThN/Tealo/releases/tag/1.1.1) | Integrated TypeScript 
-[**1.1.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/1.1.0) | Converted to Teams App
-[**0.1.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.1.0) | Working and functional
-[**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.0) | Project created
+[**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.1.0) | Project fundementals
 
 ## Contact
 [**ThijmenHeuvelink.GThN@pm.me**](mailto:ThijmenHeuvelink.GThN@pm.me)
