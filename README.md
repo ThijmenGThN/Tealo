@@ -23,7 +23,8 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 ## Update History
 Version | Note
 -|-
-[**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.1.0) | Project fundementals
+[**0.0.1**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.1) | Basic React.js app structure
+[**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.0) | Project fundementals
 
 ## Contact
 [**ThijmenHeuvelink.GThN@pm.me**](mailto:ThijmenHeuvelink.GThN@pm.me)
