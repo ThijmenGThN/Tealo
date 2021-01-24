@@ -23,6 +23,7 @@ Facing any [**issues**](https://github.com/ThijmenGThN/Tealo/issues)?
 ## Update History
 Version | Note
 -|-
+[**0.0.2**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.2) | Added a basic class layout/overview
 [**0.0.1**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.1) | Basic React.js app structure
 [**0.0.0**](https://github.com/ThijmenGThN/Tealo/releases/tag/0.0.0) | Project fundementals
 
